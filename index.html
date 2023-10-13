@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HACKER 074</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		body {
+			background-color: black;
+			color: white;
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		
+		header {
+			background-color: #455A64;
+			padding: 10px;
+			text-align: center;
+		}
+		
+		h1 {
+			margin: 0;
+			font-size: 20px;
+			font-weight: bold;
+		}
+		
+		nav {
+			background-color: #455A64;
+			padding: 10px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+		}
+		
+		nav a {
+			color: white;
+			text-decoration: none;
+			margin: 10px;
+			font-size: 16px;
+			font-weight: bold;
+			text-transform: uppercase;
+			padding: 10px;
+			border-radius: 5px;
+			border: 2px solid white;
+			transition: all 0.3s ease-in-out;
+		}
+		
+		nav a:hover {
+			background-color: white;
+			color: black;
+		}
+		
+		section {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			padding: 20px;
+		}
+		
+		article {
+			margin: 10px;
+			width: 100px;
+			height: 200px;
+			background-color: white;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			font-size: 16px;
+			font-weight: bold;
+			text-align: center;
+			color: black;
+			text-shadow: 1px 1px #fff;
+		}
+
+        video {
+            width: 100%;
+            height: auto;
+        }
+        
+        .fullscreen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            background-color: black;
+        }
+        
+        .fullscreen video {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .exit-fullscreen {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+        }
+        
+        .exit-fullscreen:hover {
+            color: red;
+        }
+		
+		footer {
+			background-color: #333;
+			padding: 10px;
+			text-align: center;
+		}
+		
+	</style>
+</head>
+<body>
+	
+<header>
+    <h1>HACKER 074 TV</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Channels</a>
+    <a href="#">Movies</a>
+    <a href="#">About</a>
+</nav>
+
+<section>
+    <article>
+        <h2>Channel 1</h2>
+        <video controls>
+            <source src="https://cdn1.rea.cdn.moderntv.eu/readymedia/stream/DREAMTV/5-20-hls/live.m3u8" type="application/x-mpegURL">
+        </video>
+    </article>
+    <article>
+        <h2>Channel 2</h2>
+        <video controls>
+            <source src="https://example.com/channel2/stream.m3u8" type="application/x-mpegURL">
+        </video>
+    </article>
+    <article>
+        <h2>Channel 3</h2>
+        <video controls>
+            <source src="https://example.com/channel3/stream.m3u8" type="application/x-mpegURL">
+        </video>
+    </article>
+    <article>
+        <h2>Channel 4</h2>
+        <video controls>
+            <source src="https://example.com/channel4/stream.m3u8" type="application/x-mpegURL">
+        </video>
+    </article>
+    <article>
+        <h2>Channel 5</h2>
+        <video controls>
+            <source src="https://example.com/channel5/stream.m3u8" type="application/x-mpegURL">
+        </video>
+    </article>
+    <article>
+        <h2>Channel 6</h2>
+        <video controls>
+            <source src="https://example.com/channel6/stream.m3u8" type="application/x-mpegURL">
+        </video>
+    </article>
+    <article>
+        <h2>Channel 7</h2>
+        <video controls>
+            <source src="https://example.com/channel7/stream.m3u8" type="application/x-mpegURL">
+        </video>
+    </article>
+    <article>
+        <h2>Channel 8</h2>
+        <video controls>
+            <source src="https://example.com/channel8/stream.m3u8" type="application/x-mpegURL">
+        </video>
+    </article>
+    <article>
+        <h2>Channel 1</h2>
+        <video controls>
+            <source src="https://cdn1.rea.cdn.moderntv.eu/readymedia/stream/DREAMTV/5-20-hls/live.m3u8" type="application/x-mpegURL">
+        </video>
+    </article>
+    <article>
+        <h2>Channel 2</h2>
+        <video controls>
+            <source src="https://example.com/channel2/stream.m3u8" type="application/x-mpegURL">
+        </video>
+    </article>
+    <article>
+        <h2>Channel 3</h2>
+        <video controls>
+            <source src="https://example.com/channel3/stream.m3u8" type="application/x-mpegURL">
+        </video>
+    </article>
+    <article>
+        <h2>Channel 4</h2>
+        <video controls>
+            <source src="https://example.com/channel4/stream.m3u8" type="application/x-mpegURL">
+        </video>
+    </article>
+    <article>
+        <h2>Channel 5</h2>
+        <video controls>
+            <source src="https://example.com/channel5/stream.m3u8" type="application/x-mpegURL">
+        </video>
+    </article>
+    <article>
+        <h2>Channel 6</h2>
+        <video controls>
+            <source src="https://example.com/channel6/stream.m3u8" type="application/x-mpegURL">
+        </video>
+    </article>
+    <article>
+        <h2>Channel 7</h2>
+        <video controls>
+            <source src="https://example.com/channel7/stream.m3u8" type="application/x-mpegURL">
+        </video>
+    </article>
+    <article>
+        <h2>Channel 8</h2>
+        <video controls>
+            <source src="https://example.com/channel8/stream.m3u8" type="application/x-mpegURL">
+        </video>
+    </article>
+    <article>
+        <h2>Channel 1</h2>
+        <video controls>
+            <source src="https://cdn1.rea.cdn.moderntv.eu/readymedia/stream/DREAMTV/5-20-hls/live.m3u8" type="application/x-mpegURL">
+        </video>
+    </article>
+    <article>
+        <h2>Channel 2</h2>
+        <video controls>
+            <source src="https://example.com/channel2/stream.m3u8" type="application/x-mpegURL">
+        </video>
+    </article>
+    <article>
+        <h2>Channel 3</h2>
+        <video controls>
+            <source src="https://example.com/channel3/stream.m3u8" type="application/x-mpegURL">
+        </video>
+    </article>
+    <article>
+        <h2>Channel 4</h2>
+        <video controls>
+            <source src="https://example.com/channel4/stream.m3u8" type="application/x-mpegURL">
+        </video>
+    </article>
+    <article>
+        <h2>Channel 5</h2>
+        <video controls>
+            <source src="https://example.com/channel5/stream.m3u8" type="application/x-mpegURL">
+        </video>
+    </article>
+    <article>
+        <h2>Channel 6</h2>
+        <video controls>
+            <source src="https://example.com/channel6/stream.m3u8" type="application/x-mpegURL">
+        </video>
+    </article>
+    <article>
+        <h2>Channel 7</h2>
+        <video controls>
+            <source src="https://example.com/channel7/stream.m3u8" type="application/x-mpegURL">
+        </video>
+    </article>
+    <article>
+        <h2>Channel 8</h2>
+        <video controls>
+            <source src="https://example.com/channel8/stream.m3u8" type="application/x-mpegURL">
+        </video>
+    </article>
+</section>
+
+<footer>
+    &copy; 2023 My Web TV. All rights reserved.
+</footer>
+
+<script>
+    const videos = document.querySelectorAll('video');
+    
+    videos.forEach(video => {
+        video.addEventListener('click', toggleFullscreen);
+    });
+    
+    function toggleFullscreen() {
+        if (!document.fullscreenElement) {
+            this.requestFullscreen().catch(err => {
+                console.log(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
+            });
+        } else {
+            if (document.exitFullscreen) {
+                document.exitFullscreen();
+            }
+        }
+    }
+    
+    document.addEventListener('fullscreenchange', exitFullscreenHandler);
+    
+    function exitFullscreenHandler() {
+        if (!document.fullscreenElement) {
+            videos.forEach(video => {
+                video.pause();
+                video.currentTime = 0;
+            });
+        }
+    }
+</script>
+
+</body>
+</html>
