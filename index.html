@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>HACKER 074</title>
+	<title>My Streaming Channels</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
 		body {
-			background-color: black;
-			color: white;
+			background-color: white;
+			color: black;
 			font-family: Arial, sans-serif;
 			margin: 0;
 			padding: 0;
 		}
 		
 		header {
-			background-color: #455A64;
+			background-color: #333;
 			padding: 10px;
 			text-align: center;
 		}
 		
 		h1 {
 			margin: 0;
-			font-size: 20px;
+			font-size: 26px;
 			font-weight: bold;
 		}
 		
 		nav {
-			background-color: #455A64;
+			background-color: #6774;
 			padding: 10px;
 			display: flex;
 			flex-wrap: wrap;
@@ -37,7 +37,7 @@
 			color: white;
 			text-decoration: none;
 			margin: 10px;
-			font-size: 16px;
+			font-size: 24px;
 			font-weight: bold;
 			text-transform: uppercase;
 			padding: 10px;
@@ -48,7 +48,7 @@
 		
 		nav a:hover {
 			background-color: white;
-			color: black;
+			color: white;
 		}
 		
 		section {
@@ -61,8 +61,8 @@
 		
 		article {
 			margin: 10px;
-			width: 100px;
-			height: 200px;
+			width: 150px;
+			height: 250px;
 			background-color: white;
 			border-radius: 10px;
 			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
@@ -70,248 +70,171 @@
 			flex-direction: column;
 			align-items: center;
 			justify-content: center;
-			font-size: 16px;
+			font-size: 14px;
 			font-weight: bold;
-			text-align: center;
-			color: black;
-			text-shadow: 1px 1px #fff;
 		}
-
-        video {
-            width: 100%;
-            height: auto;
-        }
-        
-        .fullscreen {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 9999;
-            background-color: black;
-        }
-        
-        .fullscreen video {
-            width: 100%;
-            height: 100%;
-        }
-        
-        .exit-fullscreen {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            color: white;
-            font-size: 24px;
-            cursor: pointer;
-        }
-        
-        .exit-fullscreen:hover {
-            color: red;
-        }
 		
-		footer {
-			background-color: #333;
-			padding: 10px;
-			text-align: center;
+		img {
+			width: 150px;
+			height: 150px;
+			border-radius: 50%;
+			cursor: pointer;
 		}
 		
 	</style>
 </head>
 <body>
+
+	<header>
+		<h1>My Streaming Channels</h1>
+	</header>
+
 	
-<header>
-    <h1>HACKER 074 TV</h1>
-</header>
+	<section
+	
+	<!-- Replace "LINK_1", "LINK_2", etc. with the actual live streaming links for each channel -->
+	
+	<article>
+	   <img src="https://firebasestorage.googleapis.com/v0/b/rrrr-7debd.appspot.com/o/IMG_20230917_214115_(15_x_30_cm).jpg?alt=media&token=ef722637-9356-4e7b-94f5-2e86c2020bc6&_gl=1*4ovh81*_ga*MTkyMDUzOTI3LjE2OTczMTQxNTg.*_ga_CW55HF8NVT*MTY5NzMxNDE2Mi4xLjEuMTY5NzMxNjMyNi4yMC4wLjA." onclick="window.open('https://cdn1.rea.cdn.moderntv.eu/readymedia/stream/DREAMTV/5-20-hls/live.m3u8', '_blank');">
+	   <p>KBS TV</p>
+    </article>
 
-<nav>
-    <a href="#">Home</a>
-    <a href="#">Channels</a>
-    <a href="#">Movies</a>
-    <a href="#">About</a>
-</nav>
+    <article>
+	   <img src="https://via.placeholder.com/150x150.png?text=Channel+2" onclick="window.open('https://cdn1.rea.cdn.moderntv.eu/readymedia/stream/Moon_tv/5-20-hls/live.m3u8', '_blank');">
+	   <p>MOON TV</p>
+    </article>
 
-<section>
     <article>
-        <h2>Channel 1</h2>
-        <video controls>
-            <source src="https://cdn1.rea.cdn.moderntv.eu/readymedia/stream/DREAMTV/5-20-hls/live.m3u8" type="application/x-mpegURL">
-        </video>
+	   <img src="https://via.placeholder.com/150x150.png?text=Channel+3" onclick="window.open('https://cdn1.rea.cdn.moderntv.eu/readymedia/stream/DREAMTV/5-20-hls/live.m3u8', '_blank');">
+	   <p>DREAM TV</p>
     </article>
-    <article>
-        <h2>Channel 2</h2>
-        <video controls>
-            <source src="https://example.com/channel2/stream.m3u8" type="application/x-mpegURL">
-        </video>
-    </article>
-    <article>
-        <h2>Channel 3</h2>
-        <video controls>
-            <source src="https://example.com/channel3/stream.m3u8" type="application/x-mpegURL">
-        </video>
-    </article>
-    <article>
-        <h2>Channel 4</h2>
-        <video controls>
-            <source src="https://example.com/channel4/stream.m3u8" type="application/x-mpegURL">
-        </video>
-    </article>
-    <article>
-        <h2>Channel 5</h2>
-        <video controls>
-            <source src="https://example.com/channel5/stream.m3u8" type="application/x-mpegURL">
-        </video>
-    </article>
-    <article>
-        <h2>Channel 6</h2>
-        <video controls>
-            <source src="https://example.com/channel6/stream.m3u8" type="application/x-mpegURL">
-        </video>
-    </article>
-    <article>
-        <h2>Channel 7</h2>
-        <video controls>
-            <source src="https://example.com/channel7/stream.m3u8" type="application/x-mpegURL">
-        </video>
-    </article>
-    <article>
-        <h2>Channel 8</h2>
-        <video controls>
-            <source src="https://example.com/channel8/stream.m3u8" type="application/x-mpegURL">
-        </video>
-    </article>
-    <article>
-        <h2>Channel 1</h2>
-        <video controls>
-            <source src="https://cdn1.rea.cdn.moderntv.eu/readymedia/stream/DREAMTV/5-20-hls/live.m3u8" type="application/x-mpegURL">
-        </video>
-    </article>
-    <article>
-        <h2>Channel 2</h2>
-        <video controls>
-            <source src="https://example.com/channel2/stream.m3u8" type="application/x-mpegURL">
-        </video>
-    </article>
-    <article>
-        <h2>Channel 3</h2>
-        <video controls>
-            <source src="https://example.com/channel3/stream.m3u8" type="application/x-mpegURL">
-        </video>
-    </article>
-    <article>
-        <h2>Channel 4</h2>
-        <video controls>
-            <source src="https://example.com/channel4/stream.m3u8" type="application/x-mpegURL">
-        </video>
-    </article>
-    <article>
-        <h2>Channel 5</h2>
-        <video controls>
-            <source src="https://example.com/channel5/stream.m3u8" type="application/x-mpegURL">
-        </video>
-    </article>
-    <article>
-        <h2>Channel 6</h2>
-        <video controls>
-            <source src="https://example.com/channel6/stream.m3u8" type="application/x-mpegURL">
-        </video>
-    </article>
-    <article>
-        <h2>Channel 7</h2>
-        <video controls>
-            <source src="https://example.com/channel7/stream.m3u8" type="application/x-mpegURL">
-        </video>
-    </article>
-    <article>
-        <h2>Channel 8</h2>
-        <video controls>
-            <source src="https://example.com/channel8/stream.m3u8" type="application/x-mpegURL">
-        </video>
-    </article>
-    <article>
-        <h2>Channel 1</h2>
-        <video controls>
-            <source src="https://cdn1.rea.cdn.moderntv.eu/readymedia/stream/DREAMTV/5-20-hls/live.m3u8" type="application/x-mpegURL">
-        </video>
-    </article>
-    <article>
-        <h2>Channel 2</h2>
-        <video controls>
-            <source src="https://example.com/channel2/stream.m3u8" type="application/x-mpegURL">
-        </video>
-    </article>
-    <article>
-        <h2>Channel 3</h2>
-        <video controls>
-            <source src="https://example.com/channel3/stream.m3u8" type="application/x-mpegURL">
-        </video>
-    </article>
-    <article>
-        <h2>Channel 4</h2>
-        <video controls>
-            <source src="https://example.com/channel4/stream.m3u8" type="application/x-mpegURL">
-        </video>
-    </article>
-    <article>
-        <h2>Channel 5</h2>
-        <video controls>
-            <source src="https://example.com/channel5/stream.m3u8" type="application/x-mpegURL">
-        </video>
-    </article>
-    <article>
-        <h2>Channel 6</h2>
-        <video controls>
-            <source src="https://example.com/channel6/stream.m3u8" type="application/x-mpegURL">
-        </video>
-    </article>
-    <article>
-        <h2>Channel 7</h2>
-        <video controls>
-            <source src="https://example.com/channel7/stream.m3u8" type="application/x-mpegURL">
-        </video>
-    </article>
-    <article>
-        <h2>Channel 8</h2>
-        <video controls>
-            <source src="https://example.com/channel8/stream.m3u8" type="application/x-mpegURL">
-        </video>
-    </article>
-</section>
 
-<footer>
-    &copy; 2023 My Web TV. All rights reserved.
-</footer>
+    <article>
+	   <img src="https://via.placeholder.com/150x150.png?text=Channel+4" onclick="window.open('https://cdn1.rea.cdn.moderntv.eu/readymedia/stream/tv_sanyuka/20-hls/live-media.m3u8', '_blank');">
+	   <p>SANYUKA TV</p>
+    </article>
 
-<script>
-    const videos = document.querySelectorAll('video');
-    
-    videos.forEach(video => {
-        video.addEventListener('click', toggleFullscreen);
-    });
-    
-    function toggleFullscreen() {
-        if (!document.fullscreenElement) {
-            this.requestFullscreen().catch(err => {
-                console.log(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
-            });
-        } else {
-            if (document.exitFullscreen) {
-                document.exitFullscreen();
-            }
-        }
-    }
-    
-    document.addEventListener('fullscreenchange', exitFullscreenHandler);
-    
-    function exitFullscreenHandler() {
-        if (!document.fullscreenElement) {
-            videos.forEach(video => {
-                video.pause();
-                video.currentTime = 0;
-            });
-        }
-    }
-</script>
+    <article>
+	   <img src="https://via.placeholder.com/150x150.png?text=Channel+5" onclick="window.open('http://nycetv-dmi-origin.airtelstream.net/readymedia/stream/NYCE_TV/20-hls/live-media.m3u8', '_blank');">
+	   <p>NYCE TV</p>
+    </article>
+
+    <article>
+	   <img src="https://via.placeholder.com/150x150.png?text=Channel+6" onclick="window.open('https://cdn1.rea.cdn.moderntv.eu/readymedia/stream/ubc/20-hls/live-media.m3u8', '_blank');">
+	   <p>UBC TV</p>
+    </article>
+
+    <article>
+	   <img src="https://via.placeholder.com/150x150.png?text=Channel+7" onclick="window.open('http://cdn1.rea.cdn.moderntv.eu/readymedia/stream/DELTATV/5-hls/live-media.m3u8', '_blank');">
+	   <p>DELTA TV</p>
+    </article>
+
+    <article>
+	   <img src="https://via.placeholder.com/150x150.png?text=Channel+8" onclick="window.open('https://readymedia.moderntv.cloud:8092/distribute/readymedia/KS_TV_stream_dc/5-20-hls/live.m3u8', '_blank');">
+	   <p>KS TV</p>
+    </article>
+
+    <article>
+	   <img src="https://via.placeholder.com/150x150.png?text=Channel+9" onclick="window.open('https://cdn1.rea.cdn.moderntv.eu/readymedia/stream/tvnbs_tv/20-hls/live-media.m3u8', '_blank');">
+	   <p>NBS TV</p>
+    </article>
+
+    <article>
+	   <img src="https://via.placeholder.com/150x150.png?text=Channel+10" onclick="window.open('https://stream.hydeinnovations.com/tvwest-flussonic/index.m3u8', '_blank');">
+	   <p>WEST TV</p>
+    </article>
+	  
+	   <article>
+	   <img src="https://via.placeholder.com/150x150.png?text=Channel+2" onclick="window.open('LINK_2', '_blank');">
+	   <p>U24 TV</p>
+    </article>
+
+    <article>
+	   <img src="https://via.placeholder.com/150x150.png?text=Channel+3" onclick="window.open('LINK_3', '_blank');">
+	   <p>MAGIC TV</p>
+    </article>
+
+    <article>
+	   <img src="https://via.placeholder.com/150x150.png?text=Channel+4" onclick="window.open('https://stream.hydeinnovations.com/boratv/index.m3u8', '_blank');">
+	   <p>EAST TV</p>
+    </article>
+
+    <article>
+	   <img src="https://via.placeholder.com/150x150.png?text=Channel+5" onclick="window.open('https://media.streambrothers.com:19360/8121/8121.m3u8', '_blank');">
+	   <p>TAGY TV</p>
+    </article>
+
+    <article>
+	   <img src="https://via.placeholder.com/150x150.png?text=Channel+6" onclick="window.open('LINK_6', '_blank');">
+	   <p>Channel 6</p>
+    </article>
+
+    <article>
+	   <img src="https://via.placeholder.com/150x150.png?text=Channel+7" onclick="window.open('LINK_7', '_blank');">
+	   <p>Channel 7</p>
+    </article>
+
+    <article>
+	   <img src="https://via.placeholder.com/150x150.png?text=Channel+8" onclick="window.open('LINK_8', '_blank');">
+	   <p>Channel 8</p>
+    </article>
+
+    <article>
+	   <img src="https://via.placeholder.com/150x150.png?text=Channel+9" onclick="window.open('LINK_9', '_blank');">
+	   <p>Channel 9</p>
+    </article>
+
+    <article>
+	   <img src="https://via.placeholder.com/150x150.png?text=Channel+10" onclick="window.open('LINK_10', '_blank');">
+	   <p>Channel 10</p>
+    </article>
+	  
+	   <article>
+	   <img src="https://via.placeholder.com/150x150.png?text=Channel+2" onclick="window.open('LINK_2', '_blank');">
+	   <p>Channel 2</p>
+    </article>
+
+    <article>
+	   <img src="https://via.placeholder.com/150x150.png?text=Channel+3" onclick="window.open('LINK_3', '_blank');">
+	   <p>Channel 3</p>
+    </article>
+
+    <article>
+	   <img src="https://via.placeholder.com/150x150.png?text=Channel+4" onclick="window.open('LINK_4', '_blank');">
+	   <p>Channel 4</p>
+    </article>
+
+    <article>
+	   <img src="https://via.placeholder.com/150x150.png?text=Channel+5" onclick="window.open('LINK_5', '_blank');">
+	   <p>Channel 5</p>
+    </article>
+
+    <article>
+	   <img src="https://via.placeholder.com/150x150.png?text=Channel+6" onclick="window.open('LINK_6', '_blank');">
+	   <p>Channel 6</p>
+    </article>
+
+    <article>
+	   <img src="https://via.placeholder.com/150x150.png?text=Channel+7" onclick="window.open('LINK_7', '_blank');">
+	   <p>Channel 7</p>
+    </article>
+
+    <article>
+	   <img src="https://via.placeholder.com/150x150.png?text=Channel+8" onclick="window.open('LINK_8', '_blank');">
+	   <p>Channel 8</p>
+    </article>
+
+    <article>
+	   <img src="https://via.placeholder.com/150x150.png?text=Channel+9" onclick="window.open('LINK_9', '_blank');">
+	   <p>Channel 9</p>
+    </article>
+
+    <article>
+	   <img src="https://via.placeholder.com/150x150.png?text=Channel+10" onclick="window.open('LINK_10', '_blank');">
+	   <p>Channel 10</p>
+    </article>
+
+   </section>
 
 </body>
 </html>
